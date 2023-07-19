@@ -1,1 +1,1 @@
-# Demo1
+# Quickstart for dbt Cloud and BigQuery
