@@ -1,5 +1,6 @@
 with source as ( 
-    select * from `dbt-tutorial`.jaffle_shop.customers
+    select * from {{source('jaffle_shop', 'customers')}}
+    
 )
 , staged as ( 
     select
